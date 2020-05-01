@@ -1,0 +1,139 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.success{
+	background: green;
+	min-height: 0px;	
+	border-radius: 6px;
+	margin-top: 6px;
+	text-align: center;
+}
+.enter{
+	background: red;
+	min-height: 0px;
+	border-radius: 6px;
+	margin-top: 6px;
+	text-align: center;
+}
+.rem{
+	background: cyan;
+	min-height: 0px;
+	border-radius: 6px;
+	margin-top: 6px;
+	text-align: center;
+}
+.main{
+	width: 60%;
+	align-items: center;
+	margin: 30px 150px;
+	min-height: 50%;
+	position: absolute;
+	border: 1px solid black;
+	border-radius: 10px;
+	box-shadow: 5px 5px;
+}
+
+.book, .authoR, .idbi{
+	width: 90%;
+	margin: 10px 35px;
+}
+label{
+	font-weight: bold;
+}
+
+input{
+	width: 90%;
+	height: 30px;
+	border-radius: 4px;
+}
+
+button{
+	width: 90%;
+	height: 30px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	background: transparent;
+	border-radius: 10px;
+}
+
+button:hover{
+	color: white;
+	background-color: black;
+}
+.tbl{
+	position: absolute;
+	top: 100%;
+	left: 35%;
+	width: 50%;
+}	
+
+table{
+	border-collapse: collapse;
+	margin: 0px 0px;
+	font-size: 15px;
+	min-width: 500px;
+	margin-left: -35%;
+
+}
+table .tt{
+	background: green;
+}
+
+table td{
+	height: 40px;
+	font-weight: bold;
+	border-bottom: 1px solid black;
+}
+
+
+@media only screen and (min-width: 284px) {
+.main{
+	width: 90%;
+	min-height: 50%;
+	border: 1px solid black;
+	border-radius: 10px;
+	box-shadow: 5px 5px;
+	margin-left: 4%;
+}
+.book, .authoR, .idbi{
+	width: 90%;
+	margin-left: 4%;
+}	
+label{
+	font-weight: bold;
+}
+
+input{
+	width: 90%;
+	height: 30px;
+	border-radius: 4px;
+}
+
+.tbl{
+	position: absolute;
+	top: 65%;
+	left: 17%;
+	width: 50%;
+}	
+
+table{
+	border-collapse: separate;
+	margin: 0px 0px;
+	font-size: 15px;
+	min-width: 500px;
+	margin-left: -35%;
+
+}
+table .tt{
+	background: green;
+}
+
+table td{
+	height: 40px;
+	font-weight: bold;
+	border-bottom: 1px solid black;
+}
+
+}
